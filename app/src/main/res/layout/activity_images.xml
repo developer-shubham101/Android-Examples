@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ImagesActivity">
+
+
+    <ImageView
+        android:id="@+id/upload_image"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:tint="#cf1111"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+
+    <ImageView
+        android:id="@+id/upload_image1"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+
+    <ImageView
+        android:id="@+id/upload_image2"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+
+    <ImageView
+        android:id="@+id/upload_image3"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+
+    <ImageView
+        android:id="@+id/upload_image4"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+
+    <ImageView
+        android:id="@+id/upload_image5"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+
+    <ImageView
+        android:id="@+id/upload_image6"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+
+    <ImageView
+        android:id="@+id/upload_image7"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+    <ImageView
+        android:id="@+id/upload_image8"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+    <ImageView
+        android:id="@+id/upload_image9"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/upload" />
+
+
+</LinearLayout>
