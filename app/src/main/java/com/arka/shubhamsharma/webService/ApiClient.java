@@ -18,4 +18,12 @@ public class ApiClient {
         return retrofit;
     }
 
+    public static Retrofit getPaytm() {
+
+        return new Retrofit.Builder()
+        .baseUrl("http://mystar11.com/PAYTMChecksum/")
+        .addConverterFactory(GsonConverterFactory.create())
+        .build();
+    }
+
 }
