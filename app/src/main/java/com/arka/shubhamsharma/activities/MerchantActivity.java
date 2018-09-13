@@ -29,6 +29,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * show the usage of Paytm PG SDK API's.
  **/
 
+
 public class MerchantActivity extends AppCompatActivity {
 
     @Override
@@ -137,25 +138,7 @@ public class MerchantActivity extends AppCompatActivity {
         paramMap.put("EMAIL", "abc@gmail.com");
         paramMap.put("MOBILE_NO", "9999999999");
 
-        /*  */
-
-/*
-
-        paramMap.put("MID" , "WorldP64425807474247");
-        paramMap.put("ORDER_ID" , "210lkldfka2a27");
-        paramMap.put("CUST_ID" , "mkjNYC1227");
-        paramMap.put("INDUSTRY_TYPE_ID" , "Retail");
-        paramMap.put("CHANNEL_ID" , "WAP");
-        paramMap.put("TXN_AMOUNT" , "1");
-        paramMap.put("WEBSITE" , "worldpressplg");
-        paramMap.put("CALLBACK_URL" , "https://pguat.paytm.com/paytmchecksum/paytmCheckSumVerify.jsp");*/
-
-
         PaytmOrder Order = new PaytmOrder(paramMap);
-
-		/*PaytmMerchant Merchant = new PaytmMerchant(
-				"https://pguat.paytm.com/paytmchecksum/paytmCheckSumGenerator.jsp",
-				"https://pguat.paytm.com/paytmchecksum/paytmCheckSumVerify.jsp");*/
 
         Service.initialize(Order, null);
 

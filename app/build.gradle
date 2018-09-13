@@ -57,6 +57,5 @@ dependencies {
 
     /*Paytm*/
     implementation 'com.paytm:pgplussdk:1.1.5'
-//    implementation files('libs/PGSDK_V2.1.jar')
 
 }
