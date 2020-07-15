@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.arka.shubhamsharma"
+        applicationId "in.newdevpoint.android"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
